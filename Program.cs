@@ -53,7 +53,7 @@ Console.WriteLine("Исходный массив: ");
 PrintArray(array);//Вывод в консоль исходного массива для наглядного сравнения с финальным массивом
 Console.WriteLine();
 string[] finalArray = SelectWordInArray(array);// Передаем финальному массиву результат работы метода SelectWordInArray
-Console.WriteLine($"Новый массив: ");
+Console.WriteLine("Новый массив: ");
 PrintArray(finalArray);//Вывод в консоль финального массива для наглядного сравнения с исходным массивом
 
 // Результат работы программы:
